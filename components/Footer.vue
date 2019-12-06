@@ -7,5 +7,6 @@
 .footer {
   align-self: flex-end;
   height: 210px;
+  text-align: center;
 }
 </style>
