@@ -14,7 +14,14 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap"
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -40,7 +47,8 @@ export default {
    */
   modules: [
     // Doc: https://github.com/nuxt-community/dotenv-module
-    "@nuxtjs/dotenv"
+    "@nuxtjs/dotenv",
+    ["vue-scrollto/nuxt", { duration: 1000 }]
   ],
   /*
    ** Build configuration
