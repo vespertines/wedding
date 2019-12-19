@@ -11,10 +11,7 @@
 
 <style lang="scss">
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  padding-top: 70px;
 
   .v-center-container {
     height: 380px;
