@@ -11,7 +11,6 @@ $grey: #505050;
 html {
   color: $grey;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
   font-style: normal;
   font-variant: normal;
   -ms-text-size-adjust: 100%;

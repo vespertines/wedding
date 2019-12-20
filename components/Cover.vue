@@ -1,7 +1,7 @@
 <template>
   <div
     class="cover-container"
-    :style="{'background-image': 'url(' + require('~/assets/images/LNY_16-35_20190818_1763-v2.jpg') + ')'}"
+    :style="{'background-image': 'url(' + require('~/assets/images/cover.jpg') + ')'}"
   >
     <h1 class="font-cursive">Kwangsu Nayeon</h1>
   </div>
@@ -20,7 +20,7 @@ $grey: #505050;
     position: fixed;
     top: 35px;
     left: 0;
-    z-index: 100;
+    z-index: 10;
     width: 100%;
     color: $white;
     font-size: 30px;

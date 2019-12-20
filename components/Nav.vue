@@ -1,10 +1,14 @@
 <template>
   <nav>
     <ul>
-      <li>Wedding</li>
-      <li>Travel</li>
       <li>
-        <nuxt-link :to="{ path: '/', hash: 'photos' }" v-scroll-to="{ el: '#photos' }">Photos</nuxt-link>
+        <nuxt-link :to="{ path: '/' }" v-scroll-to="{ el: '#wedding' }">Wedding</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link :to="{ path: '/' }" v-scroll-to="{ el: '#travel' }">Travel</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link :to="{ path: '/' }" v-scroll-to="{ el: '#photos' }">Photos</nuxt-link>
       </li>
     </ul>
     <ul>
@@ -31,9 +35,11 @@ nav {
     left: 40px;
     margin: 0;
     padding: 0;
+    z-index: 100;
 
     &:last-of-type {
       right: 40px;
+      z-index: 200;
       text-align: right;
     }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="photos" class="container">
     <div class="photo-container">
       <div class="photo">
         <img src="~/assets/images/image-1@2x.png" />
