@@ -1,5 +1,5 @@
 <template>
-  <div class="footer" id="footer">
+  <div id="footer" class="footer">
     <div
       class="v-center-container"
       :style="{'background-image': 'url(' + require('~/assets/images/footer@2x.png') + ')'}"

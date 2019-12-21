@@ -2,19 +2,19 @@
   <nav>
     <ul>
       <li>
-        <nuxt-link :to="{ path: '/' }" v-scroll-to="{ el: '#wedding' }">Wedding</nuxt-link>
+        <nuxt-link v-scroll-to="{ el: '#wedding' }" :to="{ path: '/' }">Wedding</nuxt-link>
       </li>
       <li>
-        <nuxt-link :to="{ path: '/' }" v-scroll-to="{ el: '#travel' }">Travel</nuxt-link>
+        <nuxt-link v-scroll-to="{ el: '#travel' }" :to="{ path: '/' }">Travel</nuxt-link>
       </li>
       <li>
-        <nuxt-link :to="{ path: '/' }" v-scroll-to="{ el: '#photos' }">Photos</nuxt-link>
+        <nuxt-link v-scroll-to="{ el: '#photos' }" :to="{ path: '/' }">Photos</nuxt-link>
       </li>
     </ul>
     <ul>
       <li>Registry</li>
       <li>
-        <nuxt-link :to="{ path: '/', hash: 'footer' }" v-scroll-to="{ el: '#footer' }">Contact</nuxt-link>
+        <nuxt-link v-scroll-to="{ el: '#footer' }" :to="{ path: '/', hash: 'footer' }">Contact</nuxt-link>
       </li>
     </ul>
   </nav>

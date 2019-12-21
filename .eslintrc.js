@@ -10,9 +10,12 @@ module.exports = {
   extends: ["@nuxtjs", "plugin:nuxt/recommended"],
   // add your custom rules here
   rules: {
-    "space-before-blocks": "off",
+    semi: 0,
     quotes: "off",
+    "space-before-blocks": "off",
     "no-extra-semi": "off",
-    semi: 0
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/multiline-html-element-content-newline": "off",
+    "vue/html-self-closing": "off"
   }
 };
