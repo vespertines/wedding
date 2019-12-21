@@ -1,7 +1,7 @@
 <template>
   <div
     class="cover-container"
-    :style="{'background-image': 'url(' + require('~/assets/images/cover.jpg') + ')'}"
+    :style="{'background-image': 'url(' + require('~/assets/images/cover@2x.jpg') + ')'}"
   >
     <h1 class="font-cursive">Kwangsu Nayeon</h1>
   </div>
