@@ -39,7 +39,6 @@ $grey: #505050;
 .container {
   position: relative;
   margin: 0 auto;
-  text-align: center;
 }
 
 .font-cursive {

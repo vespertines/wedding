@@ -14,7 +14,7 @@
     <ul>
       <li>Registry</li>
       <li>
-        <nuxt-link v-scroll-to="{ el: '#footer' }" :to="{ path: '/', hash: 'footer' }">Contact</nuxt-link>
+        <nuxt-link v-scroll-to="{ el: '#contact' }" :to="{ path: '/' }">Contact</nuxt-link>
       </li>
     </ul>
   </nav>
@@ -29,17 +29,22 @@ nav {
   top: 40px;
   left: 0;
   width: 100%;
+  z-index: 100;
 
   ul {
-    position: absolute;
-    left: 40px;
     margin: 0;
     padding: 0;
-    z-index: 100;
+    width: 50%;
+
+    &:first-of-type {
+      float: left;
+      padding-left: 40px;
+      text-align: left;
+    }
 
     &:last-of-type {
-      right: 40px;
-      z-index: 200;
+      float: right;
+      padding-right: 40px;
       text-align: right;
     }
 

@@ -22,6 +22,7 @@
       color: #ffffff;
       font-size: 30px;
       line-height: 1em;
+      text-align: center;
     }
   }
 }
