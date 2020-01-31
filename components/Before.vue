@@ -12,7 +12,7 @@
         <br />토요일 5월 16일 2020
       </p>
     </section>
-    <section id="wedding">
+    <!-- <section id="wedding">
       <h3 class="font-cursive">Wedding</h3>
       <p>Wedding Ceremony starts at 12AM and a lunch buffet will follow. Feel free to join our traditional Korean wedding ceremony, we will open the door!</p>
     </section>
@@ -47,7 +47,7 @@
       <p>Typical Korean wedding doesn’t really have a dress code but it will be nice to see you guys in smart casual or semi-formal dresses. Unless it’s raining we expect to have a lovely spring weather (Average temperature is 25° / 10° in May, Andong) but since it’s in mountain you would need to be careful with mosquitoes so we recommend you to have a long sleeves to cover you up at the evening time.</p>
       <p class="subtitle">For Your Information</p>
       <p>The Gureme resort has a rental service of Korean traditional costume if you’re interested in please let us know.</p>
-    </section>
+    </section>-->
   </div>
 </template>
 <style lang="scss">
@@ -76,8 +76,9 @@
     }
 
     p {
-      font-family: "Noto Sans KR", sans-serif;
-      font-size: 14px;
+      font-family: "Nanum Myeongjo", serif;
+      font-size: 20px;
+      letter-spacing: 0.2em;
       line-height: 1.6;
 
       &.subtitle {

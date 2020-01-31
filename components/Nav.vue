@@ -1,21 +1,8 @@
 <template>
   <nav>
     <ul>
-      <li>
-        <nuxt-link v-scroll-to="{ el: '#wedding' }" :to="{ path: '/' }">Wedding</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link v-scroll-to="{ el: '#travel' }" :to="{ path: '/' }">Travel</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link v-scroll-to="{ el: '#photos' }" :to="{ path: '/' }">Photos</nuxt-link>
-      </li>
-    </ul>
-    <ul>
-      <li>Registry</li>
-      <li>
-        <nuxt-link v-scroll-to="{ el: '#contact' }" :to="{ path: '/' }">Contact</nuxt-link>
-      </li>
+      <li>Contact</li>
+      <li>Register</li>
     </ul>
   </nav>
 </template>
@@ -26,43 +13,52 @@ $grey: #505050;
 
 nav {
   position: fixed;
-  top: 40px;
+  bottom: 0;
   left: 0;
+  margin: 0;
+  padding: 0;
   width: 100%;
+  height: 60px;
   z-index: 100;
+  border-top: solid 1px $grey;
+  background-color: $white;
 
   ul {
-    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
-    width: 50%;
-
-    &:first-of-type {
-      float: left;
-      padding-left: 40px;
-      text-align: left;
-    }
-
-    &:last-of-type {
-      float: right;
-      padding-right: 40px;
-      text-align: right;
-    }
+    width: 1400px;
+    max-width: 100%;
 
     li {
+      margin: 0;
+      padding: 0;
       display: inline-block;
+      width: 50%;
       list-style: none;
-      font-size: 12px;
+      font-size: 15px;
+      line-height: 20px;
       letter-spacing: 0.075em;
       text-transform: uppercase;
+
+      &:first-of-type {
+        float: left;
+        padding-left: 40px;
+        text-align: left;
+      }
+
+      &:last-of-type {
+        float: right;
+        padding-right: 40px;
+        text-align: right;
+      }
 
       a {
         color: $grey;
         text-decoration: none;
       }
-    }
-
-    li + li::before {
-      content: " | ";
     }
   }
 }

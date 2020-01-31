@@ -2,32 +2,29 @@
   <div class="container">
     <Nav />
     <Cover />
-    <Before />
-    <Photos />
-    <After />
-    <Footer />
+    <Contents />
+    <!-- <Photos /> -->
+    <!-- <Footer /> -->
   </div>
 </template>
 
 <script>
 import Nav from "~/components/Nav.vue";
 import Cover from "~/components/Cover.vue";
-import Before from "~/components/Before.vue";
-import Photos from "~/components/Photos.vue";
-import After from "~/components/After.vue";
-import Footer from "~/components/Footer.vue";
+import Contents from "~/components/Contents.vue";
+// import Photos from "~/components/Photos.vue";
+// import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
     Nav,
     Cover,
-    Before,
-    Photos,
-    After,
-    Footer
+    Contents
+    // Photos,
+    // Footer
   },
   head: {
-    title: "Nayeon and Kwangsu Tie the Knot."
+    title: "Nayeon and Kwang-Su Tie the Knot."
   }
 };
 </script>
@@ -36,13 +33,17 @@ export default {
 $white: #ffffff;
 $grey: #505050;
 
+body {
+  min-height: 100%;
+}
+
 .container {
   position: relative;
   margin: 0 auto;
 }
 
 .font-cursive {
-  font-family: "La Belle Aurore", cursive;
+  font-family: "Work Sans", sans-serif;
   letter-spacing: -0.025em;
 }
 </style>

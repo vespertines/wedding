@@ -18,13 +18,7 @@ export default {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap"
-      },
-      {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap"
+        href: "https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
       }
     ]
   },

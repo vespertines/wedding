@@ -9,8 +9,9 @@ $white: #ffffff;
 $grey: #505050;
 
 html {
+  min-height: 100%;
   color: $grey;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-variant: normal;
   -ms-text-size-adjust: 100%;
