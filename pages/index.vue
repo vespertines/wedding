@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <Nav />
     <Cover />
     <Contents />
@@ -14,6 +14,8 @@ import Cover from "~/components/Cover.vue";
 import Contents from "~/components/Contents.vue";
 // import Photos from "~/components/Photos.vue";
 // import Footer from "~/components/Footer.vue";
+
+import "~/assets/scss/simple-grid.scss";
 
 export default {
   components: {

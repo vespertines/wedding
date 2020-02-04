@@ -8,8 +8,8 @@
 </template>
 
 <style lang="scss" scoped>
+$black: #000000;
 $white: #ffffff;
-$grey: #505050;
 
 nav {
   position: fixed;
@@ -20,7 +20,7 @@ nav {
   width: 100%;
   height: 60px;
   z-index: 100;
-  border-top: solid 1px $grey;
+  border-top: solid 1px $black;
   background-color: $white;
 
   ul {
@@ -56,7 +56,7 @@ nav {
       }
 
       a {
-        color: $grey;
+        color: $black;
         text-decoration: none;
       }
     }
