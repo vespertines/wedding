@@ -21,11 +21,16 @@
 
 <style lang="scss" scoped>
 $white: #ffffff;
+$black: #000000;
 $grey: #505050;
 
 .image {
   padding-top: 50px;
   text-align: center;
+
+  img {
+    max-width: 100%;
+  }
 }
 
 .text {
