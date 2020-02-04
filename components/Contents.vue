@@ -5,7 +5,7 @@
         <h3>Timetable</h3>
         <table>
           <tr>
-            <td>2:00 pm</td>
+            <td>1:30 pm</td>
             <td>Arrival</td>
           </tr>
           <tr>
@@ -42,8 +42,15 @@
       <div class="col-6 contents">
         <h3>Travel</h3>
         <p>
-          The full address is 745 Seonggok-dong, Andong-si, Gyeongsangbuk-do or
-          190 Minsokchon-gil, Andong-si, Gyeongsangbuk-do.
+          The full address is
+          <a
+            v-bind:href="'https://www.google.com/maps/place/745+Seonggok-dong,+Andong,+Gyeongsangbuk-do,+South+Korea/@36.5712433,128.7664382,17.78z/data=!4m5!3m4!1s0x3566a4662add4af7:0x5a214cf8fcfcbb53!8m2!3d36.5716411!4d128.7683522'"
+            target="_blank"
+          >745 Seonggok-dong, Andong-si, Gyeongsangbuk-do</a> or
+          <a
+            v-bind:href="'https://www.google.com/maps/place/190+Minsokchon-gil,+Yongsang-dong,+Andong,+Gyeongsangbuk-do,+South+Korea/@36.5716411,128.767082,17z/data=!3m1!4b1!4m5!3m4!1s0x3566a4662add4af7:0xe93771b383fb734a!8m2!3d36.5716411!4d128.7683522'"
+            target="_blank"
+          >190 Minsokchon-gil, Andong-si, Gyeongsangbuk-do</a>.
         </p>
         <p>
           There will be chartered buses from Seoul and Busan in the morning
@@ -56,8 +63,14 @@
           ticket should cost less than 15,000 won.
         </p>
         <p>
-          We recommend you to use Naver map (mobile) rather than Google map. Read
-          an article.
+          We recommend you to use Naver map (mobile) rather than Google map.
+          <a
+            v-bind:href="'https://www.blakeerik.com/blog/2019/8/30/kakaomap-vs-naver-map-which-app-is-best-to-use-for-south-korea/'"
+            target="_blank"
+          >
+            Read
+            an article.
+          </a>
         </p>
       </div>
     </div>
@@ -74,12 +87,24 @@
         <h3>Accommodation</h3>
         <p>
           For guests travelling in, if you would like to enjoy traditional Korean
-          accommodations, we recommend you to stay at Gurume Resort with us. The
-          resort has limited rooms so R.S.V.P. Let us know via email if you
+          accommodations, we recommend you to stay at
+          <a
+            v-bind:href="'http://www.gurume-andong.com/svc/'"
+            target="_blank"
+          >Gurume Resort</a> with us. The
+          resort has limited rooms so R.S.V.P. Let us know via
+          <a
+            v-bind:href="'mailto:lee.nayeon90@gmail.com, atelier.jullian@gmail.com'"
+          >email</a> if you
           require additional details.
         </p>
         <p>
-          Otherwise Andong Grand Hotel or Richell Hotel are alternative
+          Otherwise
+          <a
+            v-bind:href="'http://www.andonggrandhotel.com/eng/'"
+            target="_blank"
+          >Andong Grand Hotel</a> or
+          <a v-bind:href="'http://richell-andong.co.kr/eng/'" target="_blank">Richell Hotel</a> are alternative
           accommodations.
         </p>
         <p>Feel free to send an email if you need any help booking accommodations.</p>
@@ -99,7 +124,11 @@
           highly recommend a visit there while you’re in South Korea.
         </p>
         <p>
-          If it becomes a group we suggest to stay here (7-10 Max / up to £370 per
+          If it becomes a group we suggest to stay
+          <a
+            v-bind:href="'http://paulstay.co.kr/'"
+            target="_blank"
+          >here</a> (7-10 Max / up to £370 per
           day) but if it becomes larger number we can find other places or happy
           to have an accommodation separately.
         </p>
@@ -138,9 +167,14 @@ $grey-light: #7e7e7e;
   }
 
   p {
+    margin-bottom: 1em;
     color: $grey-light;
     font-size: 15px;
     line-height: 1.5;
+
+    a {
+      color: $black;
+    }
   }
 }
 
@@ -148,14 +182,15 @@ $grey-light: #7e7e7e;
   tr {
     td {
       font-size: 15px;
-      line-height: 1em;
+      line-height: 1.5;
 
       &:nth-of-type(1) {
-        width: 90px;
+        width: 100px;
+        color: $black;
       }
 
       &:nth-of-type(2) {
-        width: calc(100% - 90px);
+        width: calc(100% - 100px);
         color: $grey-light;
       }
     }

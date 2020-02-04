@@ -1,8 +1,12 @@
 <template>
   <nav>
     <ul>
-      <li>Contact</li>
-      <li>Register</li>
+      <li>
+        <a v-bind:href="'mailto:lee.nayeon90@gmail.com, atelier.jullian@gmail.com'">Contact</a>
+      </li>
+      <li>
+        <a v-bind:href="'https://prezola.com/wishlists/10217304/'" target="_blank">Register</a>
+      </li>
     </ul>
   </nav>
 </template>

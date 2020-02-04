@@ -7,11 +7,11 @@
     </div>
     <div class="row">
       <div class="col-12 text">
-        Nayeon Lee and Kwang-Su Kim
+        Na-Yeon Lee and Kwang-Su Kim
         <br />invite you to join them at the celebration
         <br />of their marriage
         <br />Saturday 16 May 2020
-        <br />at 2:00 pm
+        <br />at 1:30 pm
         <br />Gurume Resort
         <br />Andong-Si, South Korea
       </div>
@@ -35,7 +35,7 @@ $grey: #505050;
 
 .text {
   padding-bottom: 120px;
-  color: $grey;
+  color: $black;
   font-size: 15px;
   letter-spacing: 0.025em;
   line-height: 1.75em;

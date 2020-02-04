@@ -14,6 +14,12 @@
         <img src="~/assets/images/image-3@2x.png" />
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-12 photo">
+        <img src="~/assets/images/image-4@2x.png" />
+      </div>
+    </div>
   </div>
 </template>
 
