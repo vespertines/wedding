@@ -60,6 +60,15 @@
           an article.
         </p>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 contents">
+        <h3>What to Wear</h3>
+        <p>Typically, Korean weddings do not have dress codes but we would like to request smart-casual or semi-formal attire.</p>
+        <p>Unless there is rain, we expect to have lovely spring climate (Average temperature in May is 10°–25° in Andong) but as the venue is in the mountain, you should be aware that there are mosquitoes; we recommend bringing long sleeves for the evening.</p>
+        <p>For your information, the resort offers Korean traditional attire rental service. If this interests you, please let us know.</p>
+      </div>
 
       <div class="col-6 contents">
         <h3>Accommodation</h3>
@@ -75,7 +84,9 @@
         </p>
         <p>Feel free to send an email if you need any help booking accommodations.</p>
       </div>
+    </div>
 
+    <div class="row">
       <div class="col-6 contents">
         <h3>Jeju Island</h3>
         <p>
@@ -129,6 +140,7 @@ $grey-light: #7e7e7e;
   p {
     color: $grey-light;
     font-size: 15px;
+    line-height: 1.5;
   }
 }
 
