@@ -13,6 +13,7 @@ module.exports = {
     semi: 0,
     quotes: "off",
     "space-before-blocks": "off",
+    "space-before-function-paren": "off",
     "no-extra-semi": "off",
     "vue/singleline-html-element-content-newline": "off",
     "vue/multiline-html-element-content-newline": "off",

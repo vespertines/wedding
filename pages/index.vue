@@ -14,7 +14,6 @@ import Cover from "~/components/Cover.vue";
 import Contents from "~/components/Contents.vue";
 import Photos from "~/components/Photos.vue";
 import Footer from "~/components/Footer.vue";
-
 import "~/assets/scss/simple-grid.scss";
 
 export default {
@@ -26,26 +25,7 @@ export default {
     Footer
   },
   head: {
-    title: "Nayeon and Kwang-Su Tie the Knot."
+    title: "Na-Yeon and Kwang-Su Tie the Knot."
   }
 };
 </script>
-
-<style lang="scss">
-$white: #ffffff;
-$grey: #505050;
-
-body {
-  min-height: 100%;
-}
-
-.container {
-  position: relative;
-  margin: 0 auto;
-}
-
-.font-cursive {
-  font-family: "Work Sans", sans-serif;
-  letter-spacing: -0.025em;
-}
-</style>

@@ -10,10 +10,8 @@ $grey: #505050;
 
 html {
   min-height: 100%;
-  color: $grey;
   font-family: "Work Sans", sans-serif;
-  font-style: normal;
-  font-variant: normal;
+  font-weight: 400;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
