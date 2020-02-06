@@ -53,7 +53,7 @@
           >190 Minsokchon-gil, Andong-si, Gyeongsangbuk-do</a>.
         </p>
         <p>
-          There will be chartered buses from Seoul and Busan in the morning
+          There will be a chartered bus from Seoul in the morning
           (around 9am). We will share the exact times and location a month before
           the wedding. Please keep a watch out for further instructions.
         </p>

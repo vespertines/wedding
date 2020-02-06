@@ -2,22 +2,31 @@
   <div class="container">
     <div class="row">
       <div class="col-12 photo">
-        <img src="~/assets/images/image-1-2@2x.png" />
+        <img src="~/assets/images/wedding-image-1.jpg" />
       </div>
     </div>
 
     <div class="row">
       <div class="col-6 photo">
-        <img src="~/assets/images/image-2@2x.png" />
+        <img src="~/assets/images/wedding-image-2.jpg" />
       </div>
       <div class="col-6 photo">
-        <img src="~/assets/images/image-3@2x.png" />
+        <img src="~/assets/images/wedding-image-3.jpg" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 photo">
+        <img src="~/assets/images/wedding-image-4.jpg" />
+      </div>
+      <div class="col-6 photo">
+        <img src="~/assets/images/wedding-image-5.jpg" />
       </div>
     </div>
 
     <div class="row">
       <div class="col-12 photo">
-        <img src="~/assets/images/image-4@2x.png" />
+        <img src="~/assets/images/wedding-image-6.jpg" />
       </div>
     </div>
   </div>

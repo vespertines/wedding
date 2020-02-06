@@ -34,7 +34,7 @@ $grey: #505050;
 }
 
 .text {
-  padding-bottom: 120px;
+  padding-bottom: 150px;
   color: $black;
   font-size: 15px;
   letter-spacing: 0.025em;
