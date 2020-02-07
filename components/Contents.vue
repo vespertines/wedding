@@ -25,7 +25,7 @@
             <td>The Chartered Buses Leave</td>
           </tr>
           <tr>
-            <td>6:10 pm</td>
+            <td>6:00 pm</td>
             <td>Break Time</td>
           </tr>
           <tr>
