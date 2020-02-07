@@ -114,28 +114,17 @@
     <div class="row">
       <div class="col-6 contents">
         <h3>Jeju Island</h3>
-        <p>
-          We’re planning to go to Jeju Island a few days to chill and relax after
-          the wedding (17 - 21 May). there are a few flight departing from Gimhae
-          airport. It would be great if you would join us there!
-        </p>
-        <p>
-          It is a very beautiful island with a unique and special culture. We
-          highly recommend a visit there while you’re in South Korea.
-        </p>
+        <p>We’re planning to go to Jeju Island for a few days to chill and relax after the wedding (17 - 21 May). There are a few flight departing from Gimhae airport. It would be great if you would join us there!</p>
+        <p>It is a very beautiful island with a unique and special culture. We highly recommend a visit there while you’re in South Korea.</p>
         <p>
           If it becomes a group we suggest to stay
           <a
             v-bind:href="'http://paulstay.co.kr/'"
             target="_blank"
-          >here</a> (7-10 Max / up to £370 per
-          day) but if it becomes larger number we can find other places or happy
-          to have an accommodation separately.
+          >here</a>
+          (7-10 Max / up to £370 per day) but if it becomes a larger number we can find other places or happy to have an accommodation separately.
         </p>
-        <p>
-          Also it depends on number of people we can plan how to get the airport
-          together.
-        </p>
+        <p>Depending on the number of people, we can plan how to get to the airport together.</p>
       </div>
 
       <div class="col-6 contents">
