@@ -1,10 +1,10 @@
 # wedding
 
-> My exquisite Nuxt.js project
+> Na-Yeon and Kwang-Su Tie the Knot.
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
