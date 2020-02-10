@@ -123,6 +123,9 @@
             target="_blank"
           >here</a>
           (7-10 Max / up to £370 per day) but if it becomes a larger number we can find other places or happy to have an accommodation separately.
+          <a
+            v-bind:href="'https://www.stayfolio.com/picks?page=1&city=%ED%95%9C%EA%B5%AD%252F%EC%A0%9C%EC%A3%BC'"
+          >Visit here.</a>
         </p>
         <p>Depending on the number of people, we can plan how to get to the airport together.</p>
       </div>
