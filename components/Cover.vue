@@ -6,14 +6,16 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 text">
-        Na-Yeon Lee and Kwang-Su Kim
-        <br />invite you to join them at the celebration
-        <br />of their marriage
-        <br />Saturday 16 May 2020
-        <br />at 1:30 pm
-        <br />Gurume Resort
-        <br />Andong-Si, South Korea
+      <div class="col-12 delay">
+        <p>
+          Due to the unforeseen circumstances regarding Coronavirus,
+          <br />the wedding of
+          <span>Na-Yeon & Kwang-Su</span> has been postponed.
+        </p>
+        <p>
+          We apologise for any inconvenience this may have caused.
+          <br />Please await for further updates.
+        </p>
       </div>
     </div>
   </div>
@@ -30,6 +32,24 @@ $grey: #505050;
 
   img {
     max-width: 100%;
+  }
+}
+
+.delay {
+  padding-bottom: 150px;
+
+  p {
+    margin-bottom: 30px;
+    color: $black;
+    font-size: 15px;
+    letter-spacing: 0.025em;
+    line-height: 1.75em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  span {
+    text-decoration: underline;
   }
 }
 
